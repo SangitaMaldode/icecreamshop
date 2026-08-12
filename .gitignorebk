@@ -1,5 +1,0 @@
-@"
-outputs/
-*.zip
-.DS_Store
-"@ | Set-Content .gitignore
