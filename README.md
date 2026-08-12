@@ -1,4 +1,5 @@
-# Luna & Milk — S3 static website
+# Luna & Milk — S3 static website 
+Learning devSecOps practices
 
 This is a complete static one-page ice cream shop website with four separate flavor detail pages. It uses only HTML, CSS, JavaScript, and local SVG artwork—no backend and no build step.
 
