@@ -2,4 +2,4 @@
 outputs/
 *.zip
 .DS_Store
-"@ | Set-Content .gitignore
+"@ | Set-Content .gitignoresecrets.env
