@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Luna & Milk makes small-batch ice cream with big, sunny flavor.">
+  <title>Luna & Milk — Small-batch ice cream</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">Small-batch joy, scooped daily <span aria-hidden="true">✦</span> Open until 10pm</div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Luna and Milk home"><span class="brand-mark">✦</span><span>Luna <em>&amp;</em> Milk</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <a href="#flavors">Flavors</a>
+      <a href="#story">Our story</a>
+      <a href="#visit">Visit us</a>
+      <a class="nav-pill" href="#flavors">Order a scoop <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Made with wonder in Brooklyn</p>
+        <h1>Good days start with <span>great scoops.</span></h1>
+        <p class="hero-lede">We make small-batch ice cream with ingredients worth slowing down for—and flavors that turn an ordinary Tuesday into a tiny celebration.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#flavors">Explore flavors <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#story">Meet the makers <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-note"><span class="stars" aria-hidden="true">★★★★★</span><span>4.9 from 2,000+ happy spoonfuls</span></div>
+      </div>
+      <div class="hero-art" aria-label="Real photo of scoops of ice cream in a cone"><div class="hero-photo-frame"><img src="assets/hero-photo.jpg" alt="Three scoops of ice cream in a cone held against a golden background"></div></div>
+    </section>
+
+    <section id="flavors" class="flavors section-shell section-pad">
+      <div class="section-heading"><div><p class="eyebrow">The good stuff</p><h2>Meet your new<br><em>favorite flavor.</em></h2></div><a class="text-link" href="#all-flavors">View all flavors <span aria-hidden="true">↗</span></a></div>
+      <div id="all-flavors" class="flavor-grid">
+        <a class="flavor-card card-lavender" href="vanilla-bean.html"><div class="card-image"><span class="card-badge">Best seller</span><img src="assets/vanilla-photo.jpg" alt="Real photo of vanilla and chocolate ice cream scoops"></div><div class="card-meta"><div><h3>Cloud Nine</h3><p>Vanilla bean · sea salt</p></div><span class="card-arrow">↗</span></div></a>
+        <a class="flavor-card card-berry" href="berry-hibiscus.html"><div class="card-image"><span class="card-badge badge-pink">Seasonal</span><img src="assets/berry-photo.jpg" alt="Real photo of strawberry ice cream with fresh strawberries"></div><div class="card-meta"><div><h3>Berry Blush</h3><p>Strawberry · hibiscus</p></div><span class="card-arrow">↗</span></div></a>
+        <a class="flavor-card card-green" href="pistachio-honey.html"><div class="card-image"><img src="assets/pistachio-photo.jpg" alt="Real photo of a pistachio ice cream scoop in a cup"></div><div class="card-meta"><div><h3>Golden Hour</h3><p>Pistachio · wildflower honey</p></div><span class="card-arrow">↗</span></div></a>
+        <a class="flavor-card card-caramel" href="salted-caramel.html"><div class="card-image"><img src="assets/caramel-photo.jpg" alt="Real photo of ice cream with caramel sauce and toasted dessert pieces"></div><div class="card-meta"><div><h3>Afterglow</h3><p>Brown sugar · sea salt</p></div><span class="card-arrow">↗</span></div></a>
+      </div>
+    </section>
+
+    <section id="story" class="story section-shell section-pad">
+      <div class="story-art"><div class="story-blob blob-one"></div><div class="story-blob blob-two"></div><div class="story-scoop"></div><span class="story-stamp">Since<br>2016</span></div>
+      <div class="story-copy"><p class="eyebrow">A little more human</p><h2>Ice cream is our love language.</h2><p>Every Luna &amp; Milk batch starts with a simple idea: use beautiful ingredients, take your time, and leave room for a little magic. We partner with nearby farms, churn in small quantities, and never rush the good part.</p><a class="button button-outline" href="#visit">Our neighborhood <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section id="visit" class="visit section-shell section-pad"><div class="visit-copy"><p class="eyebrow">Come say hello</p><h2>Your table is<br><em>waiting.</em></h2><p>Find us on the sunny corner of Bergen &amp; 5th. Bring a friend, bring a book, bring your appetite.</p><a class="button button-dark" href="mailto:hello@lunaandmilk.example">Plan a visit <span aria-hidden="true">↗</span></a></div><div class="hours-card"><div class="pin">✦</div><h3>Luna &amp; Milk</h3><p>412 Bergen Street<br>Brooklyn, NY 11217</p><div class="hours-row"><span>Mon–Thu</span><strong>12—10pm</strong></div><div class="hours-row"><span>Fri–Sun</span><strong>11—11pm</strong></div><span class="card-doodle">✹</span></div></section>
+  </main>
+
+  <footer class="site-footer section-shell"><a class="brand" href="index.html"><span class="brand-mark">✦</span><span>Luna <em>&amp;</em> Milk</span></a><p>Made for bright moments.</p><div class="footer-links"><a href="#flavors">Flavors</a><a href="#story">Our story</a><a href="mailto:hello@lunaandmilk.example">Contact</a></div><p class="copyright">© <span data-year></span> Luna &amp; Milk</p></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
